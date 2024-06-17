@@ -25,14 +25,22 @@ const JoinOurTeam = () => {
         <button>Join Our Team</button>
       </div>
       <div className="team-images">
+        <div>
         <img src={photoon} alt="Team member"  className='drooter' />
         <img src={phototw} alt="Team member" className='drooter' />
         <img src={photothre} alt="Team member" className='drooter' />
+        </div>
+
+        <div>
         <img src={photofour} alt="Team member" className='drooter' />
         <img src={photofivv} alt="Team member" className='drooter' />
         <img src={photosix} alt="Team member" className='drooter' />
+        </div>
+
+        <div>
         <img src={photosev} alt="Team member" className='drooter' />
         <img src={photoeigh} alt="Team member"  className='drooter'/>
+        </div>
       </div>
     </div>
   );
