@@ -1,0 +1,345 @@
+.consulting-services {
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .consulting-services {
+   
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .video-section {
+    position: relative;
+    text-align: center;
+    height: 350px;
+    margin-bottom: 40px;
+    background-color: #666;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .video-overlay {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .video-overlay img {
+    width: 100%;
+    max-width: 800px;
+    
+    border-radius: 10px;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: white;
+    background-color: rgba(224, 43, 43, 0.8);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .video-section p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    width:330px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    height: 350px;
+  }
+  
+  .testimonial.highlighted {
+    background-color: #e02b2b;
+    color: white;
+  }
+  
+  .testimonial p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-info {
+    text-align: left;
+  }
+  
+  .author-info strong {
+    display: block;
+    font-size: 0.9em;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonials {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .testimonial {
+      width: 90%;
+    }
+  }
+  
+
+  .redlineconsul {
+    background-color: red;
+    height: 6px;
+    width: 100%;
+  }
+
+
+  .hjiowej {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+
+  /* ConsultingServices.css */
+
+.consulting-services {
+  /* Add your existing styles here */
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+ 
+  padding: 20px 0;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.kkoppee {
+  background-color: red;
+  height: 2px;
+  width: 183px;
+  border-radius: 33px;
+  margin-left: 43px;
+  margin: 12px;
+}
+
+.jjoper {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.numberjsj {
+  color: red;
+  font-weight: bold;
+  margin-top: -19px;
+  font-size: 42px;
+}
+
+.numberjsje {
+  color:black;
+  font-weight: bold;
+  margin-top: -19px;
+  font-size: 42px;
+}
+
+
+.contername {
+  font-size: 17px;
+  padding-bottom:-83px;
+font-weight: bold;
+
+}
+
+.aassde {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 22px;
+}
+
+.ooperee {
+  margin-left: 43px;
+  font-weight: bold;
+  font-size: 25px;
+  width:325px;
+  text-align:left;
+}
+
+
+.oopereeop {
+  margin-left: 43px;
+  font-size: 15px;
+  width:375px;
+  text-align:left;
+}
+
+.vertical-lineele {
+  background-color: red;
+  height: 65px;
+  width: 2px;
+  margin-top: -253px;
+}
+
+
+.uiojk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.peertoy{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+
+.carousel::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.testimonial {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  scroll-snap-align: center;
+  transition: background-color 0.3s, border-bottom 0.3s;
+  position: relative;
+}
+
+.testimonial.highlighted {
+  background-color: red;
+  color: #fff;
+}
+
+.testimonial.highlighted::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  bottom: -23px;
+  left: 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.author img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.carousel-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.carousel-button.prev {
+  left: 0;
+}
+
+.carousel-button.next {
+  right: 0;
+}
+
+.carousel-button:hover {
+  background-color: #555;
+}
+
+
+.carousel-buttoneepp{
+  background-color: rgb(244, 241, 241);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  width: 123px;
+  font-size: 15px;
+}
+
+.carousel-buttoneepp:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  width: 123px;
+  font-size: 15px;
+}
+
+
+.carousel-sectioneepp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  
+  margin-right: -832px;
+}

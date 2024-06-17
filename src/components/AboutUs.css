@@ -1,0 +1,220 @@
+/* src/components/AboutUs.css */
+
+.about-us {
+  font-family: Arial, sans-serif;
+  padding-top: 1px;
+}
+
+.hhio {
+  background-color: #ddd7d7;
+  background-size: cover;
+  height: 120px;
+  padding-top: 112px;
+}
+
+.clients-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.clients-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.clients-logos img {
+  margin: 0 10px;
+  max-height: 50px;
+}
+
+.services-section {
+  background-color: #ddd7d7;
+  padding: 40px 20px;
+}
+
+.services-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service {
+  background: #ddd7d7;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  height: 420px;
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.service img {
+  max-height: 50px;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
+  color: #666;
+}
+
+.explore-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.ooper {
+  margin-left: 43px;
+  font-weight: bold;
+  font-size: 32px;
+  width: 605px;
+}
+
+.kkopp {
+  background-color: red;
+  height: 5px;
+  width: 103px;
+  border-radius: 33px;
+  margin-left: 43px;
+}
+
+.red-line {
+  background-color: red;
+  height: 3px;
+  border-radius: 44px;
+  width: 100vw;
+  margin-top: 95px;
+  margin-left: -985px;
+}
+
+.carousel-sectionee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  margin-top: -130px;
+ 
+}
+
+.deroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.carousel-buttonee {
+  background-color: rgb(244, 241, 241);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  width: 123px;
+  font-size: 15px;
+}
+
+.carousel-buttonee:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Responsive styles */
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .ooper {
+    font-size: 24px;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .kkopp {
+    width: 80px;
+    margin-left: 20px;
+  }
+
+  .red-line {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .service {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-sectionee {
+    margin-top: 0;
+    margin-right: 0;
+    flex-direction: column;
+  }
+
+  .carousel-buttonee {
+    margin: 10px 0;
+    width: 100px;
+    font-size: 12px;
+  }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .ooper {
+    font-size: 28px;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .kkopp {
+    width: 90px;
+    margin-left: 30px;
+  }
+
+  .red-line {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .service {
+    max-width: 45%;
+    height: auto;
+  }
+
+  .carousel-sectionee {
+    margin-top: 0;
+    margin-right: 0;
+    flex-direction: row;
+  }
+
+  .carousel-buttonee {
+    margin: 10px;
+    width: 110px;
+    font-size: 14px;
+  }
+}
+
